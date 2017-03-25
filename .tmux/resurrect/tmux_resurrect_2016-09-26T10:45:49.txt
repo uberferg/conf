@@ -1,0 +1,27 @@
+pane	0	0	:bash	1	:*	0	:/home/aferg	0	bash	:
+pane	0	0	:bash	1	:*	1	:/home/aferg	1	bash	:
+pane	aci	0	:vim	0	:-	0	:/home/aferg/Documents/src/aci/src/MemoryController	1	vim	:vim StorageManager.cpp StorageManager.h
+pane	aci	1	:vim	1	:*	0	:/home/aferg/Documents/src	0	bash	:
+pane	aci	1	:vim	1	:*	1	:/home/aferg/Documents/src/aci	1	bash	:
+pane	aci	2	:bash	0	:	0	:/home/aferg/Documents/build/aci	1	bash	:
+pane	aci	2	:bash	0	:	1	:/home/aferg/Documents/src/aci/src/apps	0	vim	:vim UnitTest.cpp
+pane	agt	0	:bash	1	:*	0	:/home/aferg/bin/saccade/1_cam	0	bash	:
+pane	agt	0	:bash	1	:*	1	:/home/aferg/bin/saccade/1_cam	1	bash	:
+pane	atl	0	:vim	1	:*	0	:/home/aferg/Documents/src/atl	1	bash	:
+pane	atl	1	:bash	0	:-	0	:/home/aferg/Documents/src	0	vim	:vim TODO.md
+pane	atl	1	:bash	0	:-	1	:/home/aferg/Documents/src/atl	1	bash	:
+pane	atl	2	:bash	0	:	0	:/home/aferg/Documents/build/atl	1	bash	:
+pane	atl	2	:bash	0	:	1	:/home/aferg/Documents/src/atl/test	0	bash	:
+pane	mongo	0	:bash	1	:*	0	:/home/aferg/Documents/src/mongoAPI	0	bash	:
+pane	mongo	0	:bash	1	:*	1	:/home/aferg/Documents/src/mongoAPI	0	bash	:
+pane	mongo	0	:bash	1	:*	2	:/home/aferg/Documents/build/mongoAPI	1	bash	:
+window	0	0	1	:*	6a0a,232x69,0,0{116x69,0,0,1,115x69,117,0,2}
+window	aci	0	0	:-	d460,232x69,0,0,3
+window	aci	1	1	:*	ea0e,232x69,0,0{116x69,0,0,4,115x69,117,0,5}
+window	aci	2	0	:	5354,232x69,0,0{136x69,0,0,6,95x69,137,0,7}
+window	agt	0	1	:*	1d5a,232x69,0,0{116x69,0,0,20,115x69,117,0,21}
+window	atl	0	1	:*	d465,232x69,0,0,8
+window	atl	1	0	:-	7127,232x69,0,0{115x69,0,0,9,116x69,116,0,10}
+window	atl	2	0	:	9d5a,232x69,0,0{116x69,0,0,11,115x69,117,0,12}
+window	mongo	0	1	:*	06db,232x69,0,0{116x69,0,0[116x34,0,0,13,116x34,0,35,14],115x69,117,0,15}
+state	aci	atl

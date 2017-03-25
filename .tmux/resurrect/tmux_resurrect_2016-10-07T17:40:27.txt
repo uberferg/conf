@@ -1,0 +1,44 @@
+pane	aci	0	:vim	1	:*	0	:/home/aferg/Documents/src/aci	0	vim	:vim src/apps/mapConstructor.cpp
+pane	aci	0	:vim	1	:*	1	:/home/aferg/Documents/src/aci/temp	1	bash	:
+pane	aci	2	:bash	0	:-	0	:/home/aferg/Documents/build/aci	0	bash	:
+pane	aci	2	:bash	0	:-	1	:/home/aferg/Documents/src/aci/src/apps	0	bash	:
+pane	aci	2	:bash	0	:-	2	:/home/aferg/Documents/src/aci/src	1	bash	:
+pane	analysis	0	:view	0	:-	0	:/home/aferg	0	bash	:
+pane	analysis	0	:view	0	:-	1	:/home/aferg/testData/20161003	0	bash	:
+pane	analysis	0	:view	0	:-	2	:/home/aferg/testData/20161003	1	bash	:
+pane	analysis	1	:bash	0	:	0	:/home/aferg	1	bash	:
+pane	analysis	2	:bash	1	:*	0	:/home/aferg/testData/20161003	0	bash	:
+pane	analysis	2	:bash	1	:*	1	:/home/aferg/bin/saccade	1	bash	:
+pane	atl	0	:vim	0	:-	0	:/home/aferg/Documents/src/atl/Buffer	1	bash	:
+pane	atl	1	:bash	0	:	0	:/home/aferg/Documents/src	0	vim	:vim TODO.md
+pane	atl	1	:bash	0	:	1	:/home/aferg/Documents/src/atl	1	bash	:
+pane	atl	2	:bash	1	:*	0	:/home/aferg/Documents/build/atl	0	bash	:
+pane	atl	2	:bash	1	:*	1	:/home/aferg/Documents/src/atl/test	1	bash	:
+pane	mapCon	0	:vim	1	:*	0	:/home/aferg/Documents/src/aci/src/apps	0	vim	:vim mapConstructor.cpp
+pane	mapCon	0	:vim	1	:*	1	:/home/aferg/Documents/src/aci/src	0	view	:view MemoryController/StorageManager.cpp
+pane	mapCon	0	:vim	1	:*	2	:/home/aferg/Documents/src/aci/temp	1	bash	:
+pane	mapCon	1	:bash	0	:-	0	:/home/aferg/Documents/src/aci	0	vim	:vim CMakeLists.txt
+pane	mapCon	1	:bash	0	:-	1	:/home/aferg/Documents/src/aci	1	bash	:
+pane	mapCon	1	:bash	0	:-	2	:/home/aferg/Documents/build/aci	0	bash	:
+pane	mongo	0	:bash	1	:*	0	:/home/aferg/Documents/src/mongoAPI	0	bash	:
+pane	mongo	0	:bash	1	:*	1	:/home/aferg/Documents/src/mongoAPI	0	bash	:
+pane	mongo	0	:bash	1	:*	2	:/home/aferg/Documents/build/mongoAPI	1	bash	:
+pane	viewer	0	:bash	0	:-	0	:/home/aferg/Documents/src/cameraSetup/camViewer	0	bash	:
+pane	viewer	0	:bash	0	:-	1	:/home/aferg/Documents/src/cameraSetup	1	bash	:
+pane	viewer	3	:	1	:*	0	:/home/aferg/bin/saccade	1	./CamViewer	:./CamViewer
+pane	viewer	3	:	1	:*	1	:/home/aferg/Documents/build/cameraSetup	0	bash	:
+pane	viewer	3	:	1	:*	2	:/home/aferg/bin/saccade	0	bash	:
+window	aci	0	1	:*	35ae,312x87,0,0{156x87,0,0,1,155x87,157,0,35}
+window	aci	2	0	:-	101f,312x87,0,0{191x87,0,0,4,120x87,192,0[120x43,192,0,5,120x43,192,44,31]}
+window	analysis	0	0	:-	5974,312x87,0,0{118x87,0,0,6,193x87,119,0[193x43,119,0,7,193x43,119,44,8]}
+window	analysis	1	0	:	d006,312x87,0,0,9
+window	analysis	2	1	:*	8169,312x87,0,0{156x87,0,0,10,155x87,157,0,11}
+window	atl	0	0	:-	6831,312x87,0,0,12
+window	atl	1	0	:	7d54,312x87,0,0{155x87,0,0,13,156x87,156,0,14}
+window	atl	2	1	:*	816e,312x87,0,0{156x87,0,0,15,155x87,157,0,16}
+window	mapCon	0	1	:*	17c6,312x87,0,0{156x87,0,0,20,155x87,157,0[155x43,157,0,21,155x43,157,44,22]}
+window	mapCon	1	0	:-	2df7,312x87,0,0{156x87,0,0[156x52,0,0,23,156x34,0,53,24],155x87,157,0,25}
+window	mongo	0	1	:*	925b,312x87,0,0{156x87,0,0[156x43,0,0,17,156x43,0,44,18],155x87,157,0,19}
+window	viewer	0	0	:-	0170,312x87,0,0{156x87,0,0,26,155x87,157,0,27}
+window	viewer	3	1	:*	b7ce,312x87,0,0{156x87,0,0,28,155x87,157,0[155x43,157,0,29,155x43,157,44,30]}
+state	aci	

@@ -1,0 +1,49 @@
+pane	0	0	:bash	1	:*	0	:/home/aferg	1	bash	:
+pane	aci	0	:bash	1	:*	0	:/home/aferg/Documents/src/aci/src	1	bash	:
+pane	aci	2	:bash	0	:-	0	:/home/aferg/Documents/build/aci/INSTALL/bin	1	bash	:
+pane	aci	2	:bash	0	:-	1	:/home/aferg/Documents/build/aci	0	bash	:
+pane	atl	0	:vim	0	:	0	:/home/aferg/Documents/src/atl/Socket	1	vim	:vim BaseSocket.cpp BaseSocket.h SocketServer.cpp SocketServer.h
+pane	atl	1	:vim	0	:-	0	:/home/aferg/Documents/src/atl/Socket	1	vim	:vim ContainerServer.cpp ContainerServer.h ContainerSocket.cpp ContainerSocket.h ../test/ContainerSocketTest.cpp ../test/ATLTest.cpp
+pane	atl	4	:bash	1	:*	0	:/home/aferg/Documents/build/atl	1	gdb	:gdb ./INSTALL/bin/ATLTest
+pane	atl	4	:bash	1	:*	1	:/home/aferg/Documents/src/atl/test	0	vim	:vim SampleImageSource.cpp
+pane	cam	0	:vim	1	:*	0	:/home/aferg/Documents/src/CameraInterface	1	bash	:
+pane	cam	1	:bash	0	:-	0	:/home/aferg/Documents/build/CameraInterface	0	bash	:
+pane	cam	1	:bash	0	:-	1	:/home/aferg/Documents/src/CameraInterface	1	bash	:
+pane	daemon	0	:bash	0	:-	0	:/home/aferg/Documents/src/other/daemon	0	bash	:
+pane	daemon	0	:bash	0	:-	1	:/etc/rsyslog.d	0	tail	:tail -f /var/log/testd.log
+pane	daemon	0	:bash	0	:-	2	:/home/aferg/Documents/src/other/daemon	0	bash	:
+pane	daemon	0	:bash	0	:-	3	:/etc/init.d	0	bash	:
+pane	daemon	0	:bash	0	:-	4	:/etc/init.d	1	tail	:tail -f /var/log/syslog
+pane	daemon	1	:vim	1	:*	0	:/home/aferg/Documents/src/aci/src/controller	1	bash	:
+pane	daemon	3	:bash	0	:	0	:/home/aferg/Documents/src/aci	0	vim	:vim CMakeLists.txt
+pane	daemon	3	:bash	0	:	1	:/home/aferg/Documents/build/aci	0	bash	:
+pane	daemon	3	:bash	0	:	2	:/home/aferg/Documents/src/aci/src/apps	1	bash	:
+pane	daemon	3	:bash	0	:	3	:/etc/init.d	0	bash	:
+pane	daemon	3	:bash	0	:	4	:/home/aferg	0	tail	:tail -f /var/log/aci_d.log
+pane	daemon	3	:bash	0	:	5	:/home/aferg	0	tail	:tail -f /var/log/syslog
+pane	server	0	:bash	0	:-Z	0	:/home/aferg/Documents/src/agt/apps/django_server/server/jsmpeg	0	bash	:
+pane	server	0	:bash	0	:-Z	1	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer	1	vim	:vim views.py
+pane	server	0	:bash	0	:-Z	2	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer/aci	0	bash	:
+pane	server	1	:bash	1	:*	0	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer	1	bash	:
+pane	server	2	:bash	0	:	0	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer/aci	0	bash	:
+pane	server	2	:bash	0	:	1	:/home/aferg/Documents/src/agt/apps/django_server/server	1	bash	:
+pane	viewer	0	:bash	1	:*	0	:/home/aferg/Documents/build/cameraSetup	0	bash	:
+pane	viewer	0	:bash	1	:*	1	:/home/aferg/bin/saccade	1	bash	:
+pane	viewer	2	:bash	0	:-	0	:/home/aferg/Documents/src/cameraSetup	1	bash	:
+window	0	0	1	:*	d37d,319x87,0,0,0
+window	aci	0	1	:*	d37e,319x87,0,0,1
+window	aci	2	0	:-	286d,319x87,0,0{159x87,0,0,3,159x87,160,0,4}
+window	atl	0	0	:	69f7,319x87,0,0,37
+window	atl	1	0	:-	69f3,319x87,0,0,33
+window	atl	4	1	:*	caed,319x87,0,0{209x87,0,0,8,109x87,210,0,35}
+window	cam	0	1	:*	d386,319x87,0,0,9
+window	cam	1	0	:-	83e9,319x87,0,0{159x87,0,0,10,159x87,160,0,11}
+window	daemon	0	0	:-	ed60,319x87,0,0{191x87,0,0[191x52,0,0,12,191x34,0,53,13],127x87,192,0[127x24,192,0,14,127x23,192,25,15,127x38,192,49,16]}
+window	daemon	1	1	:*	69f6,319x87,0,0,17
+window	daemon	3	0	:	b3f3,319x87,0,0{170x87,0,0[170x39,0,0{122x39,0,0,18,47x39,123,0,19},170x23,0,40,20,170x23,0,64,21],148x87,171,0[148x43,171,0,22,148x43,171,44,23]}
+window	server	0	0	:-Z	b417,319x87,0,0{122x87,0,0[122x41,0,0,24,122x45,0,42,25],196x87,123,0,26}
+window	server	1	1	:*	e9f6,319x87,0,0,27
+window	server	2	0	:	03f2,319x87,0,0{159x87,0,0,28,159x87,160,0,29}
+window	viewer	0	1	:*	83ea,319x87,0,0{159x87,0,0,30,159x87,160,0,31}
+window	viewer	2	0	:-	69f2,319x87,0,0,32
+state	atl	

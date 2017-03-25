@@ -1,0 +1,47 @@
+pane	0	0	:htop	1	:*	0	:/home/aferg	1	htop	:htop
+pane	aci	0	:bash	1	:*	0	:/home/aferg/Documents/src/aci/src/apps	1	bash	:
+pane	aci	2	:bash	0	:-	0	:/home/aferg/Documents/build/aci	0	bash	:
+pane	aci	2	:bash	0	:-	1	:/home/aferg/Documents/src/aci/src/apps	1	bash	:
+pane	aci	2	:bash	0	:-	2	:/media/data1	0	bash	:
+pane	atl	0	:vim	0	:-	0	:/home/aferg/Documents/src/atl/Buffer	1	bash	:
+pane	atl	1	:bash	0	:	0	:/home/aferg/Documents/src	0	vim	:vim TODO.md
+pane	atl	1	:bash	0	:	1	:/home/aferg/Documents/src/atl	1	bash	:
+pane	atl	2	:bash	1	:*	0	:/home/aferg/Documents/build/atl	0	bash	:
+pane	atl	2	:bash	1	:*	1	:/home/aferg/Documents/src/atl/test	1	bash	:
+pane	daemon	0	:bash	0	:	0	:/home/aferg/Documents/src/other/daemon	1	bash	:
+pane	daemon	0	:bash	0	:	1	:/etc/rsyslog.d	0	tail	:tail -f /var/log/testd.log
+pane	daemon	0	:bash	0	:	2	:/home/aferg/Documents/src/other/daemon	0	bash	:
+pane	daemon	0	:bash	0	:	3	:/etc/init.d	0	bash	:
+pane	daemon	0	:bash	0	:	4	:/etc/init.d	0	tail	:tail -f /var/log/syslog
+pane	daemon	1	:vim	0	:-	0	:/home/aferg/Documents/src/aci/src/apps	1	vim	:vim aci_d.cpp aci aci_hs.cpp ../controller/ControllerThread.cpp ../controller/ControllerThread.h
+pane	daemon	2	:bash	1	:*	0	:/home/aferg/Documents/src/aci	0	vim	:vim CMakeLists.txt
+pane	daemon	2	:bash	1	:*	1	:/home/aferg/Documents/build/aci	1	bash	:
+pane	daemon	2	:bash	1	:*	2	:/etc/init.d	0	bash	:
+pane	daemon	2	:bash	1	:*	3	:/usr/sbin	0	bash	:
+pane	daemon	2	:bash	1	:*	4	:/home/aferg	0	tail	:tail -f /var/log/aci_d.log
+pane	daemon	2	:bash	1	:*	5	:/home/aferg	0	tail	:tail -f /var/log/syslog
+pane	server	0	:bash	1	:*	0	:/home/aferg/Documents/src/agt/apps/django_server/server/jsmpeg	0	bash	:
+pane	server	0	:bash	1	:*	1	:/home/aferg/Documents/src/agt/apps/django_server/server	1	bash	:
+pane	server	0	:bash	1	:*	2	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer/aci	0	bash	:
+pane	server	1	:bash	0	:-	0	:/home/aferg/Documents/src/agt/apps/django_server/server	1	bash	:
+pane	server	2	:bash	0	:	0	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer/aci	0	bash	:
+pane	server	2	:bash	0	:	1	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer/saccade	1	bash	:
+pane	viewer	0	:bash	1	:*	0	:/home/aferg/Documents/src/cameraSetup/camViewer	1	bash	:
+pane	viewer	1	:	0	:-	0	:/home/aferg/Documents/build/cameraSetup	1	bash	:
+pane	viewer	1	:	0	:-	1	:/home/aferg/bin/saccade	0	bash	:
+pane	viewer	1	:	0	:-	2	:/home/aferg/bin/saccade	0	bash	:
+window	0	0	1	:*	e0a3,233x64,0,0,43
+window	aci	0	1	:*	e832,312x87,0,0,42
+window	aci	2	0	:-	5f78,312x87,0,0{191x87,0,0,3,120x87,192,0[120x43,192,0,4,120x43,192,44,5]}
+window	atl	0	0	:-	d003,312x87,0,0,6
+window	atl	1	0	:	e242,312x87,0,0{155x87,0,0,7,156x87,156,0,8}
+window	atl	2	1	:*	35af,312x87,0,0{156x87,0,0,9,155x87,157,0,10}
+window	daemon	0	0	:	96da,319x87,0,0{191x87,0,0[191x64,0,0,26,191x22,0,65,34],127x87,192,0[127x21,192,0,30,127x20,192,22,36,127x44,192,43,31]}
+window	daemon	1	0	:-	69f3,319x87,0,0,33
+window	daemon	2	1	:*	91b6,319x87,0,0{201x87,0,0[201x59,0,0{100x59,0,0,47,100x59,101,0,58},201x13,0,60,57,201x13,0,74,59],117x87,202,0[117x43,202,0,49,117x43,202,44,56]}
+window	server	0	1	:*	525a,312x87,0,0{118x87,0,0[118x43,0,0,16,118x43,0,44,17],193x87,119,0,18}
+window	server	1	0	:-	6838,312x87,0,0,19
+window	server	2	0	:	b25e,312x87,0,0[312x43,0,0,20,312x43,0,44,21]
+window	viewer	0	1	:*	e831,312x87,0,0,22
+window	viewer	1	0	:-	2d9e,312x87,0,0{155x87,0,0,23,156x87,156,0[156x43,156,0,24,156x43,156,44,25]}
+state	daemon	

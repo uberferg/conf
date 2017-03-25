@@ -1,0 +1,69 @@
+pane	0	0	:htop	0	:	0	:/home/aferg	1	htop	:htop
+pane	0	1	:bash	1	:*	0	:/home/aferg/Documents/src/operations/applications/64bit/Ubuntu_14_04/tools	1	bash	:
+pane	0	2	:bash	0	:-	0	:/home/aferg/Documents/src/other/exportJpeg	0	vim	:vim exportJpegs.py
+pane	0	2	:bash	0	:-	1	:/home/aferg/Documents/src/other/exportJpeg	0	bash	:
+pane	0	2	:bash	0	:-	2	:/home/aferg/Documents/src/other/exportJpeg	1	bash	:
+pane	aci	0	:bash	1	:*	0	:/home/aferg/Documents/src/aci	1	bash	:
+pane	aci	0	:bash	1	:*	1	:/home/aferg/Documents/src/aci/src	0	bash	:
+pane	aci	2	:bash	0	:-	0	:/home/aferg/Documents/build/aci	0	bash	:
+pane	aci	2	:bash	0	:-	1	:/home/aferg/Documents/src/aci/src/apps	1	bash	:
+pane	aci	2	:bash	0	:-	2	:/media/data1	0	bash	:
+pane	atl	0	:vim	0	:	0	:/home/aferg/Documents/src/atl/Buffer	1	vim	:vim BaseContainer.cpp BaseContainer.h BaseContainerMetadata.cpp BaseContainerMetadata.h
+pane	atl	1	:vim	0	:	0	:/home/aferg/Documents/src/atl/Image	1	vim	:vim ImageContainer.cpp ImageContainer.h ImageMetadata.cpp ImageMetadata.h
+pane	atl	2	:vim	0	:	0	:/home/aferg/Documents/src/atl/Image	1	vim	:vim CamImage.cpp CamImage.h CamImageMetadata.cpp CamImageMetadata.h
+pane	atl	3	:vim	0	:	0	:/home/aferg/Documents/src/atl	1	vim	:vim Buffer/HContainer.cpp Buffer/HContainer.h Buffer/HContainerMetadata.cpp Buffer/HContainerMetadata.h
+pane	atl	4	:bash	1	:*	0	:/home/aferg/Documents/src/atl	1	bash	:
+pane	atl	4	:bash	1	:*	1	:/home/aferg/Documents/src/atl	0	bash	:
+pane	atl	5	:bash	0	:-	0	:/home/aferg/Documents/build/atl	0	bash	:
+pane	atl	5	:bash	0	:-	1	:/home/aferg/Documents/build/atl/INSTALL/bin	1	bash	:
+pane	camInterface	0	:vim	0	:	0	:/home/aferg/Documents/src/cameraSetup/camViewer	1	vim	:vim camViewer.h camViewer.cpp main.cpp
+pane	camInterface	1	:vim	0	:	0	:/home/aferg/Documents/src/cameraSetup/api	1	vim	:vim propertyController.h propertyController.cpp AcosAPI.h
+pane	camInterface	2	:vim	0	:	0	:/home/aferg/Documents/build/cameraSetup/CameraInterface-prefix/src/CameraInterface	1	vim	:vim CameraBase/ControllerBase.cpp CameraBase/ControllerBase.h FlyCapture/FlyController.cpp FlyCapture/FlyController.h
+pane	camInterface	3	:bash	1	:*	0	:/home/aferg/Documents/build/cameraSetup	0	./INSTALL/bin/CamViewer	:./INSTALL/bin/CamViewer
+pane	camInterface	3	:bash	1	:*	1	:/home/aferg/Documents/build/cameraSetup/CameraInterface-prefix/src/CameraInterface	0	bash	:
+pane	camInterface	3	:bash	1	:*	2	:/home/aferg/Documents/src/cameraSetup	1	bash	:
+pane	camInterface	4	:vim	0	:-	0	:/home/aferg/Documents/build/cameraSetup/CameraInterface-prefix/src/CameraInterface/FlyCapture	1	vim	:vim FlyCamera.cpp FlyCamera.h
+pane	daemon	0	:bash	0	:-	0	:/home/aferg/Documents/src/other/daemon	0	bash	:
+pane	daemon	0	:bash	0	:-	1	:/etc/rsyslog.d	0	tail	:tail -f /var/log/testd.log
+pane	daemon	0	:bash	0	:-	2	:/home/aferg/Documents/src/other/daemon	0	bash	:
+pane	daemon	0	:bash	0	:-	3	:/etc/init.d	0	bash	:
+pane	daemon	0	:bash	0	:-	4	:/etc/init.d	1	tail	:tail -f /var/log/syslog
+pane	daemon	1	:vim	1	:*	0	:/home/aferg/Documents/src/aci/src/controller	1	bash	:
+pane	daemon	3	:bash	0	:	0	:/home/aferg/Documents/src/aci	0	vim	:vim CMakeLists.txt
+pane	daemon	3	:bash	0	:	1	:/home/aferg/Documents/build/aci	0	bash	:
+pane	daemon	3	:bash	0	:	2	:/home/aferg/Documents/src/aci/src/apps	1	bash	:
+pane	daemon	3	:bash	0	:	3	:/etc/init.d	0	bash	:
+pane	daemon	3	:bash	0	:	4	:/home/aferg	0	tail	:tail -f /var/log/aci_d.log
+pane	daemon	3	:bash	0	:	5	:/home/aferg	0	tail	:tail -f /var/log/syslog
+pane	server	0	:bash	1	:*	0	:/home/aferg/Documents/src/agt/apps/django_server/server/jsmpeg	0	bash	:
+pane	server	0	:bash	1	:*	1	:/home/aferg/Documents/src/agt/apps/django_server/server	1	bash	:
+pane	server	0	:bash	1	:*	2	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer/aci	0	bash	:
+pane	server	2	:bash	0	:-	0	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer/aci	0	bash	:
+pane	server	2	:bash	0	:-	1	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer/saccade	1	bash	:
+pane	viewer	0	:bash	0	:-	0	:/home/aferg/Documents/src/cameraSetup/camViewer	1	bash	:
+pane	viewer	1	:	1	:*	0	:/home/aferg/Documents/build/cameraSetup	0	bash	:
+pane	viewer	1	:	1	:*	1	:/home/aferg/bin/saccade	1	bash	:
+window	0	0	0	:	d37e,319x87,0,0,1
+window	0	1	1	:*	d37f,319x87,0,0,2
+window	0	2	0	:-	a997,319x87,0,0{159x87,0,0,3,159x87,160,0[159x43,160,0,4,159x43,160,44,5]}
+window	aci	0	1	:*	a871,319x87,0,0{159x87,0,0,6,159x87,160,0,7}
+window	aci	2	0	:-	409b,319x87,0,0{195x87,0,0,8,123x87,196,0[123x43,196,0,9,123x43,196,44,10]}
+window	atl	0	0	:	69f0,319x87,0,0,11
+window	atl	1	0	:	69f1,319x87,0,0,12
+window	atl	2	0	:	69f2,319x87,0,0,13
+window	atl	3	0	:	69f3,319x87,0,0,14
+window	atl	4	1	:*	83ee,319x87,0,0{159x87,0,0,15,159x87,160,0,16}
+window	atl	5	0	:-	86d8,319x87,0,0{160x87,0,0,17,158x87,161,0,18}
+window	camInterface	0	0	:	69f8,319x87,0,0,19
+window	camInterface	1	0	:	e9ef,319x87,0,0,20
+window	camInterface	2	0	:	e9f0,319x87,0,0,21
+window	camInterface	3	1	:*	0fd9,319x87,0,0{159x87,0,0,22,159x87,160,0[159x43,160,0,23,159x43,160,44,44]}
+window	camInterface	4	0	:-	e9f5,319x87,0,0,45
+window	daemon	0	0	:-	e563,319x87,0,0{191x87,0,0[191x52,0,0,24,191x34,0,53,25],127x87,192,0[127x24,192,0,26,127x23,192,25,27,127x38,192,49,28]}
+window	daemon	1	1	:*	e9f8,319x87,0,0,29
+window	daemon	3	0	:	63c3,319x87,0,0{170x87,0,0[170x39,0,0{122x39,0,0,30,47x39,123,0,31},170x23,0,40,32,170x23,0,64,33],148x87,171,0[148x43,171,0,34,148x43,171,44,35]}
+window	server	0	1	:*	dcda,319x87,0,0{122x87,0,0[122x42,0,0,36,122x44,0,43,37],196x87,123,0,38}
+window	server	2	0	:-	5b18,319x87,0,0[319x42,0,0,39,319x44,0,43,40]
+window	viewer	0	0	:-	e9f1,319x87,0,0,41
+window	viewer	1	1	:*	03ed,319x87,0,0{159x87,0,0,42,159x87,160,0,43}
+state	camInterface	server

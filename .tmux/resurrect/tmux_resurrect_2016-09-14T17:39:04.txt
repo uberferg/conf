@@ -1,0 +1,21 @@
+pane	0	0	:vim	1	:*	0	:/home/aferg/Documents/Aqueti/aci_mod/src/MemoryController	1	vim	:vim StorageThread.cpp StorageThread.h
+pane	0	1	:vim	0	:-	0	:/home/aferg/.vim	1	vim	:vim aqt.vim
+pane	aci	0	:vim	1	:*	0	:/home/aferg/Documents/Aqueti/aci/src/MemoryController	1	vim	:vim AciDataManager.cpp AciDataManager.tcc BaseDataManager.h CacheManager.cpp CacheManager.tcc StorageManager.cpp StorageManager.tcc StorageThread.cpp StorageThread.tcc
+pane	aci	1	:vim	0	:	0	:/home/aferg/Documents/Aqueti	1	vim	:vim TODO.md
+pane	aci	1	:vim	0	:	1	:/home/aferg/Documents/Aqueti/aci	0	bash	:
+pane	aci	2	:bash	0	:-	0	:/home/aferg/build/aci	1	bash	:
+pane	aci	2	:bash	0	:-	1	:/home/aferg/Documents/Aqueti/aci	0	bash	:
+pane	atl	0	:vim	1	:*	0	:/home/aferg/Documents/Aqueti/atl	1	bash	:
+pane	atl	1	:bash	0	:-	0	:/home/aferg/Documents/Aqueti	0	vim	:vim TODO.md
+pane	atl	1	:bash	0	:-	1	:/home/aferg/Documents/Aqueti/atl	1	bash	:
+pane	atl	2	:bash	0	:	0	:/home/aferg/build/atl	1	bash	:
+pane	atl	2	:bash	0	:	1	:/home/aferg/Documents/Aqueti/atl/test	0	vim	:vim ATLTest.cpp
+window	0	0	1	:*	d45e,232x69,0,0,1
+window	0	1	0	:-	d45f,232x69,0,0,2
+window	aci	0	1	:*	d466,232x69,0,0,9
+window	aci	1	0	:	9d5c,232x69,0,0{116x69,0,0,13,115x69,117,0,14}
+window	aci	2	0	:-	9d5e,232x69,0,0{116x69,0,0,15,115x69,117,0,16}
+window	atl	0	1	:*	d460,232x69,0,0,3
+window	atl	1	0	:-	e19e,232x69,0,0{115x69,0,0,4,116x69,116,0,5}
+window	atl	2	0	:	3a0a,232x69,0,0{116x69,0,0,12,115x69,117,0,7}
+state	aci	

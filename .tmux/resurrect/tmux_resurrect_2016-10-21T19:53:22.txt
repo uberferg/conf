@@ -1,0 +1,40 @@
+pane	aci	0	:vim	1	:*	0	:/home/aferg/Documents/src/aci/src/MemoryController	1	bash	:
+pane	aci	0	:vim	1	:*	1	:/home/aferg/Documents/build/aci	0	bash	:
+pane	aci	2	:bash	0	:-	0	:/home/aferg/Documents/build/aci	0	bash	:
+pane	aci	2	:bash	0	:-	1	:/home/aferg/Documents/src/aci/src/apps	0	bash	:
+pane	aci	2	:bash	0	:-	2	:/home/aferg/Documents/src/aci/src	1	bash	:
+pane	atl	0	:vim	0	:-	0	:/home/aferg/Documents/src/atl/Buffer	1	bash	:
+pane	atl	1	:bash	0	:	0	:/home/aferg/Documents/src	0	vim	:vim TODO.md
+pane	atl	1	:bash	0	:	1	:/home/aferg/Documents/src/atl	1	bash	:
+pane	atl	2	:bash	1	:*	0	:/home/aferg/Documents/build/atl	0	bash	:
+pane	atl	2	:bash	1	:*	1	:/home/aferg/Documents/src/atl/test	1	bash	:
+pane	mapCon	0	:vim	1	:*	0	:/home/aferg/Documents/src/aci/src/apps	0	vim	:vim mapConstructor.cpp
+pane	mapCon	0	:vim	1	:*	1	:/home/aferg/Documents/src/aci/src	0	bash	:
+pane	mapCon	0	:vim	1	:*	2	:/home/aferg/Documents/src/aci/temp (deleted)	1	bash	:
+pane	mapCon	1	:bash	0	:-	0	:/home/aferg/Documents/src/aci	0	vim	:vim CMakeLists.txt
+pane	mapCon	1	:bash	0	:-	1	:/home/aferg/Documents/src/aci	1	bash	:
+pane	mapCon	1	:bash	0	:-	2	:/home/aferg/Documents/build/aci	0	bash	:
+pane	server	0	:bash	1	:*	0	:/home/aferg/Documents/src/agt/apps/django_server/server/jsmpeg	0	bash	:
+pane	server	0	:bash	1	:*	1	:/home/aferg/Documents/src/agt/apps/django_server/FFMPEG (deleted)	1	bash	:
+pane	server	0	:bash	1	:*	2	:/home/aferg/Documents/src/agt/apps/django_server/server	0	bash	:
+pane	server	0	:bash	1	:*	3	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer/aci	0	bash	:
+pane	server	1	:bash	0	:-	0	:/home/aferg/Documents/src/agt/apps/django_server/server	1	bash	:
+pane	server	2	:bash	0	:	0	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer/aci	0	bash	:
+pane	server	2	:bash	0	:	1	:/home/aferg/Documents/src/agt/apps/django_server/server/viewer/saccade	1	bash	:
+pane	viewer	0	:bash	1	:*	0	:/home/aferg/Documents/src/cameraSetup/camViewer	1	bash	:
+pane	viewer	1	:	0	:-	0	:/home/aferg/Documents/build/cameraSetup	0	bash	:
+pane	viewer	1	:	0	:-	1	:/home/aferg/bin/saccade	1	bash	:
+pane	viewer	1	:	0	:-	2	:/home/aferg/bin/saccade	0	bash	:
+window	aci	0	1	:*	eaa9,312x87,0,0{156x87,0,0,1,155x87,157,0,2}
+window	aci	2	0	:-	5f78,312x87,0,0{191x87,0,0,3,120x87,192,0[120x43,192,0,4,120x43,192,44,5]}
+window	atl	0	0	:-	6831,312x87,0,0,12
+window	atl	1	0	:	7d54,312x87,0,0{155x87,0,0,13,156x87,156,0,14}
+window	atl	2	1	:*	816e,312x87,0,0{156x87,0,0,15,155x87,157,0,16}
+window	mapCon	0	1	:*	07cf,312x87,0,0{156x87,0,0,17,155x87,157,0[155x43,157,0,18,155x43,157,44,19]}
+window	mapCon	1	0	:-	6df3,312x87,0,0{156x87,0,0[156x52,0,0,20,156x34,0,53,21],155x87,157,0,22}
+window	server	0	1	:*	56d0,312x87,0,0{111x87,0,0[111x43,0,0,33,111x43,0,44,36],200x87,112,0[200x70,112,0,34,200x16,112,71,111]}
+window	server	1	0	:-	e836,312x87,0,0,46
+window	server	2	0	:	a2f0,312x87,0,0[312x43,0,0,100,312x43,0,44,109]
+window	viewer	0	1	:*	6831,312x87,0,0,31
+window	viewer	1	0	:-	65a4,312x87,0,0{155x87,0,0,29,156x87,156,0[156x44,156,0,30,156x42,156,45,75]}
+state	server	

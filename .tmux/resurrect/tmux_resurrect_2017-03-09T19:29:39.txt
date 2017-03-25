@@ -1,0 +1,24 @@
+pane	0	0	:bash	1	:*	0	:/home/aferg	1	bash	:
+pane	aci	0	:bash	1	:*	0	:/home/aferg/Documents/src/aci/src	1	bash	:vim dataManagers/StorageManager.cpp dataManagers/StorageManager.h dataManagers/StorageThread.cpp dataManagers/StorageThread.h dataManagers/StorageThread.tcc
+pane	aci	1	:bash	0	:-	0	:/home/aferg/Documents/build/aci	0	bash	:
+pane	aci	1	:bash	0	:-	1	:/home/aferg/Documents/build/aci/INSTALL/bin	1	bash	:
+pane	agt	0	:vim	0	:-	0	:/home/aferg/Documents/src/agt/apps/V1	0	vim	:vim V1.cpp
+pane	agt	0	:vim	0	:-	1	:/home/aferg/Documents/src/agt/apps/V1	1	bash	:
+pane	agt	1	:bash	1	:*	0	:/home/aferg/bin/alpha	1	./V1	:./V1 -f 10
+pane	agt	1	:bash	1	:*	1	:/home/aferg/Documents/build/agt	0	bash	:
+pane	atl	0	:bash	1	:*	0	:/home/aferg/Documents/src/atl/test	1	bash	:
+pane	atl	1	:bash	0	:-	0	:/home/aferg/Documents/build/atl	1	bash	:
+pane	atl	1	:bash	0	:-	1	:/home/aferg/Documents/src/atl/test	0	bash	:
+pane	atl	2	:ssh	0	:	0	:/home/aferg/render-window	0	bash	:
+pane	atl	2	:ssh	0	:	1	:/home/aferg/render-window	1	ssh	:ssh mosaic@10.0.0.187
+pane	viewer	0	:bash	1	:*	0	:/home/aferg/Documents/build/cameraSetup	1	bash	:
+window	0	0	1	:*	d37d,319x87,0,0,0
+window	aci	0	1	:*	69f4,319x87,0,0,15
+window	aci	1	0	:-	a86b,319x87,0,0{159x87,0,0,2,159x87,160,0,3}
+window	agt	0	0	:-	1492,319x87,0,0{159x87,0,0,5,159x87,160,0,29}
+window	agt	1	1	:*	a871,319x87,0,0{159x87,0,0,6,159x87,160,0,7}
+window	atl	0	1	:*	69ef,319x87,0,0,10
+window	atl	1	0	:-	83ea,319x87,0,0{159x87,0,0,11,159x87,160,0,12}
+window	atl	2	0	:	03f1,319x87,0,0{159x87,0,0,27,159x87,160,0,28}
+window	viewer	0	1	:*	69f2,319x87,0,0,13
+state	agt	

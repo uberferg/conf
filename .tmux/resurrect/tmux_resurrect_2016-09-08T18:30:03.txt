@@ -1,0 +1,14 @@
+pane	0	0	:vim	1	:*	0	:/home/aferg/Documents/Aqueti/aci/src/MemoryController	1	vim	:vim StorageThread.cpp StorageThread.h
+pane	0	1	:vim	0	:-	0	:/home/aferg/.vim	1	vim	:vim aqt.vim
+pane	dataMgr	0	:vim	1	:*	0	:/home/aferg/Documents/Aqueti/aci/src/MemoryController	1	vim	:vim CacheManager.tcc StorageManager.tcc AciDataManager.tcc MemoryManager.cpp MemoryManager.h
+pane	dataMgr	1	:bash	0	:-	0	:/home/aferg/Documents/Aqueti	0	vim	:vim TODO.md
+pane	dataMgr	1	:bash	0	:-	1	:/home/aferg/Documents/Aqueti/aci	0	vim	:vim CMakeLists.txt
+pane	dataMgr	1	:bash	0	:-	2	:/home/aferg/Documents/Aqueti/aci/src	1	bash	:
+pane	dataMgr	2	:bash	0	:	0	:/home/aferg/build/aci	1	bash	:
+pane	dataMgr	2	:bash	0	:	1	:/usr/share/man	0	man	:man memcmp
+window	0	0	1	:*	ae5e,80x23,0,0,1
+window	0	1	0	:-	ae5f,80x23,0,0,2
+window	dataMgr	0	1	:*	d460,232x69,0,0,3
+window	dataMgr	1	0	:-	960c,232x69,0,0{115x69,0,0,5,116x69,116,0[116x34,116,0,6,116x34,116,35,13]}
+window	dataMgr	2	0	:	7561,232x69,0,0{116x69,0,0,9,115x69,117,0,14}
+state	dataMgr	0

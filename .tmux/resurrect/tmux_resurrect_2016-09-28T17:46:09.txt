@@ -1,0 +1,37 @@
+pane	0	0	:bash	1	:*	0	:/home/aferg	0	bash	:
+pane	0	0	:bash	1	:*	1	:/home/aferg	1	bash	:
+pane	aci	0	:vim	1	:*	0	:/home/aferg/Documents/src/aci/src	1	bash	:
+pane	aci	1	:vim	0	:	0	:/home/aferg	0	bash	:
+pane	aci	1	:vim	0	:	1	:/home/aferg/Documents/src/aci	1	bash	:
+pane	aci	2	:bash	0	:-	0	:/home/aferg/Documents/build/aci	1	bash	:
+pane	aci	2	:bash	0	:-	1	:/home/aferg/Documents/src/aci/src/apps	0	vim	:vim UnitTest.cpp
+pane	atl	0	:vim	1	:*	0	:/home/aferg/Documents/src/atl	1	bash	:
+pane	atl	1	:bash	0	:-	0	:/home/aferg/Documents/src	0	vim	:vim TODO.md
+pane	atl	1	:bash	0	:-	1	:/home/aferg/Documents/src/atl	1	bash	:
+pane	atl	2	:bash	0	:	0	:/home/aferg/Documents/build/atl	1	bash	:
+pane	atl	2	:bash	0	:	1	:/home/aferg/Documents/src/atl/test	0	bash	:
+pane	mongo	0	:bash	1	:*	0	:/home/aferg/Documents/src/mongoAPI	0	bash	:
+pane	mongo	0	:bash	1	:*	1	:/home/aferg/Documents/src/mongoAPI	0	bash	:
+pane	mongo	0	:bash	1	:*	2	:/home/aferg/Documents/build/mongoAPI	1	bash	:
+pane	viewer	0	:bash	0	:-	0	:/home/aferg/bin/saccade	1	bash	:/bin/bash ./startSaccade.sh
+pane	viewer	0	:bash	0	:-	1	:/home/aferg/Documents/src/operations/applications/64bit/Linux	0	bash	:
+pane	viewer	0	:bash	0	:-	2	:/home/aferg/bin/saccade	0	bash	:
+pane	viewer	1	:bash	1	:*	0	:/home/aferg/Documents/build/cameraSetup	0	bash	:
+pane	viewer	1	:bash	1	:*	1	:/home/aferg/Documents/src/cameraSetup	0	bash	:
+pane	viewer	1	:bash	1	:*	2	:/home/aferg/Documents/build/cameraSetup/INSTALL/bin	1	bash	:
+pane	viewer	2	:vim	0	:	0	:/home/aferg/Documents/src/cameraSetup/camViewer	1	vim	:vim camViewer.cpp
+pane	viewer	2	:vim	0	:	1	:/home/aferg/config	0	bash	:
+pane	viewer	3	:bash	0	:	0	:/home/aferg/config	1	bash	:
+window	0	0	1	:*	6a0a,232x69,0,0{116x69,0,0,1,115x69,117,0,2}
+window	aci	0	1	:*	d460,232x69,0,0,3
+window	aci	1	0	:	ea0e,232x69,0,0{116x69,0,0,4,115x69,117,0,5}
+window	aci	2	0	:-	2efc,232x69,0,0{151x69,0,0,6,80x69,152,0,7}
+window	atl	0	1	:*	6a5f,232x69,0,0,10
+window	atl	1	0	:-	9942,232x69,0,0{115x69,0,0,11,116x69,116,0,12}
+window	atl	2	0	:	9d5c,232x69,0,0{116x69,0,0,13,115x69,117,0,14}
+window	mongo	0	1	:*	86dd,232x69,0,0{116x69,0,0[116x34,0,0,15,116x34,0,35,16],115x69,117,0,17}
+window	viewer	0	0	:-	51fd,232x69,0,0{116x69,0,0,8,115x69,117,0[115x35,117,0,9,115x33,117,36,33]}
+window	viewer	1	1	:*	b9bc,232x69,0,0{116x69,0,0[116x42,0,0,28,116x26,0,43,30],115x69,117,0,24}
+window	viewer	2	0	:	1d3d,232x69,0,0[232x65,0,0,29,232x3,0,66,36]
+window	viewer	3	0	:	6a64,232x69,0,0,34
+state	viewer	

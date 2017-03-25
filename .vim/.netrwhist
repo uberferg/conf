@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/aferg/Documents/src/aci/src/MemoryController'
+let g:netrw_dirhist_2='/home/aferg/Documents/src/agt/apps/django_server/server/server'
+let g:netrw_dirhist_3='/home/aferg/Documents/src/atl/TSMap'
+let g:netrw_dirhist_4='/home/aferg/Documents/src/CameraInterface/apps'
+let g:netrw_dirhist_5='/media/aferg/boot'
