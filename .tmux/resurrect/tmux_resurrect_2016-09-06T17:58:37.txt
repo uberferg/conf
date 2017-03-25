@@ -1,6 +1,0 @@
-pane	dataMgr	0	:vim	1	:*	0	:/home/aferg/Documents/Aqueti/aci/src/MemoryController	1	vim	:vim CacheManager.h StorageManager.h MemoryManager.h StorageThread.h
-pane	dataMgr	1	:bash	0	:-	0	:/home/aferg/Documents/Aqueti/aci	1	bash	:
-pane	dataMgr	1	:bash	0	:-	1	:/home/aferg/Documents/Aqueti	0	vim	:vim TODO.md
-window	dataMgr	0	1	:*	d35e,230x69,0,0,1
-window	dataMgr	1	0	:-	c17d,230x69,0,0{115x69,0,0,4,114x69,116,0,3}
-state	dataMgr	

@@ -1,6 +1,0 @@
-pane	issue64	0	:view	1	:*	0	:/home/aferg/Documents/Aqueti/aci/src/MemoryController	1	view	:view MemoryController.cpp MemoryController.h MemoryManager.cpp MemoryManager.h
-pane	issue64	1	:bash	0	:-	0	:/home/aferg/Documents/Aqueti/aci_mod	0	bash	:
-pane	issue64	1	:bash	0	:-	1	:/home/aferg/Documents/Aqueti	1	vim	:vim TODO.md
-window	issue64	0	1	:*	b49e,204x61,0,0,1
-window	issue64	1	0	:-	a77f,204x61,0,0{102x61,0,0,2,101x61,103,0,3}
-state	issue64	
