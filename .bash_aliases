@@ -8,5 +8,3 @@ set -o vi
 
 alias edba='vim ~/.bash_aliases'
 alias ..='cd ..'
-
-alias FlyCapture2Docs='evince /usr/share/doc/flycapture-doc/FlyCapture2\ API\ Reference.pdf'
