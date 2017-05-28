@@ -1,5 +1,8 @@
+# set vim as default editor
 export VISUAL=vim
 export EDITOR=$VISUAL
+
+# set terminal to vi mode
 set -o vi
 
 # enable core files
@@ -11,5 +14,9 @@ ulimit -c unlimited
 #stty -ixon
 #stty -ixoff
 
+
+###############################################################################
+# ALIASES
+###############################################################################
 alias edba='vim ~/.bash_aliases'
 alias ..='cd ..'
