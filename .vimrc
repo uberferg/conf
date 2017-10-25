@@ -37,7 +37,6 @@ set pastetoggle=<F2>
 
 " GENERAL USEFUL SETTINGS """""""""""""""""""""""""""""""""""""""""""""""""""""
 "set nowrap          " don't wrap lines
-set colorcolumn=80  " set a vertical line at 80 columns
 set backspace=indent,eol,start 
                     " allow backspacing over everything in insert mode
 set relativenumber  " set relative line numbering
@@ -55,6 +54,9 @@ set noerrorbells    " don't beep
 set clipboard=unnamedplus "use the system clipboard
 "set nostartofline   " don't jump to first character when paging
 set scrolloff=10    " keep at least 5 lines of context around the cursor
+set enc=utf-8
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf8,prc
 
 " hacky way to get rid of delay exiting insert mode:
 inoremap <special> <Esc> <Esc>hl
@@ -76,6 +78,10 @@ set smarttab        " insert tabs on the start of a line according to
 
 " APPEARANCE SETTINGS """""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set ls=2            " status bar always on
+
+"set colorcolumn=80  " set a vertical line at 80 columns
+nnoremap <C-[> :set colorcolumn=0<CR>
+nnoremap <C-]> :set colorcolumn=80<CR>
 
 " insert mode underlines current line
 autocmd InsertEnter * set cul
