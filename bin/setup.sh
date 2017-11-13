@@ -23,12 +23,30 @@ ln ~/conf/.tmux.conf ~/
 mkdir -p ~/packages
 git clone https://github.com/tmux-plugins/tmux-resurrect ~/packages/tmux-resurrect
 
+
 #############
 # Unity setup
+#############
+
 # set wallpaper
 gsettings set org.gnome.desktop.background picture-uri file:/home/$(whoami)/conf/wallpapers/brooklyn_red_cityscape-other.jpg
 # load gnome-terminal profiles into dconf
 #TODO test this
 #dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ < Red.dconf
 
+
+###############
+# Awesome setup
+###############
+
 #TODO set up awesome
+
+# install awesome
+sudo apt install awesome
+
+# copy awesome config files
+sudo cp -r ~/conf/redferg /usr/share/awesome/themes
+sudo ln -fs ~/conf/rc.lua /etc/xdg/awesome/rc.lua
+
+# restart Xorg server
+sudo pkill X
