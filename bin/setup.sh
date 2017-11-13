@@ -24,7 +24,7 @@ mkdir -p ~/packages
 git clone https://github.com/tmux-plugins/tmux-resurrect ~/packages/tmux-resurrect
 
 # load gnome-terminal profiles into dconf
-#dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ < Red.dconf
+sudo dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ < Red.dconf
 
 
 #############
@@ -32,7 +32,7 @@ git clone https://github.com/tmux-plugins/tmux-resurrect ~/packages/tmux-resurre
 #############
 
 # set wallpaper
-#gsettings set org.gnome.desktop.background picture-uri file:/home/$(whoami)/conf/wallpapers/brooklyn_red_cityscape-other.jpg
+#gsettings set org.gnome.desktop.background picture-uri file:/home/$(whoami)/conf/wallpapers/city_red_umbrella_painting.jpg
 
 
 ###############
@@ -46,7 +46,7 @@ rm ~/.xprofile
 ln -s ~/conf/.xprofile ~/.xprofile
 
 # copy awesome config files
-sudo cp -r ~/conf/redferg /usr/share/awesome/themes
+sudo ln -s ~/conf/redferg /usr/share/awesome/themes/redferg
 sudo ln -fs ~/conf/rc.lua /etc/xdg/awesome/rc.lua
 
 

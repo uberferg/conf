@@ -8,7 +8,7 @@
 
 -- {{{ Main
 theme = {}
-theme.wallpaper = "/usr/share/awesome/themes/redferg/redskyny.jpg"
+theme.wallpaper = "/usr/share/awesome/themes/redferg/city_red_umbrella_painting.jpg"
 -- }}}
 
 -- {{{ Styles
