@@ -1,0 +1,55 @@
+!URxvt
+
+
+! Colors
+! special
+*.foreground:   #a0a0a0
+*.background:   #110000
+*.cursorColor:  #a0a0a0
+
+! black
+*.color0:       #110000
+*.color8:       #220000
+
+! red
+*.color1:       #cc0000
+*.color9:       #cc0000
+
+! green
+*.color2:       #f07800
+*.color10:      #f07800
+
+! yellow
+*.color3:       #f1af00
+*.color11:      #f1af00
+
+! blue
+*.color4:       #721919
+*.color12:      #721919
+
+! magenta
+*.color5:       #900000
+*.color13:      #900000
+
+! cyan
+*.color6:       #dd4c00
+*.color14:      #dd4c00
+
+! white
+*.color7:       #bbbbbb
+*.color15:      #dddddd
+
+
+URxvt.font: xft:Ubuntu Mono:size=13
+!URxvt.letterSpace: -1
+
+
+!URxvt.perl-ext-common: default,tabbed,matcher
+!URxvt.tabbed.tabbar-fg: 2
+!URxvt.tabbed.tabbar-bg: 0
+!URxvt.tabbed.tab-fg: 3
+!URxvt.tabbed.tab-bg: 0
+URxvt.scrollBar: false
+
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800

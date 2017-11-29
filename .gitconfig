@@ -2,3 +2,5 @@
 	email = uberferg@gmail.com
 [credential]
 	helper = cache --timeout=1800
+[push]
+	default = simple
