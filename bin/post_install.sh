@@ -10,7 +10,7 @@ sudo apt update
 
 
 # Install general utilities
-sudo apt install --assume-yes vim tmux git curl htop bmon firefox
+sudo apt install --assume-yes rxvt-unicode vim tmux git curl htop bmon firefox
 
 
 # Install Google Chrome
