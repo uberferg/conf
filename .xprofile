@@ -1,1 +1,2 @@
+# start compositor
 xcompmgr -c &
