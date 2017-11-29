@@ -3,7 +3,7 @@
 # ~/.bash_aliases: contains terminal command aliases, sourced by ~/.bashrc
 #
 ###############################################################################
-alias edbrc'vim ~/.bashrc'
+alias edbrc='vim ~/.bashrc'
 alias edba='vim ~/.bash_aliases'
 
 alias ..='cd ..'
