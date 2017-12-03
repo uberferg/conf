@@ -46,10 +46,12 @@ sudo apt install xcompmgr awesome
 ln -f ~/conf/.xprofile ~/.xprofile
 
 # copy awesome config files
+mkdir -p ~/.config/awesome
 sudo cp -r ~/conf/redferg /usr/share/awesome/themes
 sudo ln -f ~/conf/rc.lua ~/.config/awesome/rc.lua
 
 
 # restart Xorg server
 xrdb ~/.Xresources
-sudo pkill X
+sudo service lightdm restart
+#sudo pkill X
