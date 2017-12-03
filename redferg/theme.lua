@@ -12,22 +12,22 @@ theme.wallpaper = "/usr/share/awesome/themes/redferg/city_red_umbrella_painting.
 -- }}}
 
 -- {{{ Styles
-theme.font      = "sans 8"
+theme.font      = "Ubuntu Mono Bold 16"
 
 -- {{{ Colors
-theme.fg_normal  = "#DCDCCC"
-theme.fg_focus   = "#F0DFAF"
+theme.fg_normal  = "#FFDDDD"
+theme.fg_focus   = "#DDCCCC"
 theme.fg_urgent  = "#CC9393"
-theme.bg_normal  = "#3F3F3F"
-theme.bg_focus   = "#1E2320"
-theme.bg_urgent  = "#3F3F3F"
+theme.bg_normal  = "#646060"
+theme.bg_focus   = "#110000"
+theme.bg_urgent  = "#CC0000"
 theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.border_width  = 2
-theme.border_normal = "#3F3F3F"
-theme.border_focus  = "#6F6F6F"
+theme.border_width  = 10
+theme.border_normal = "#646060"
+theme.border_focus  = "#110000"
 theme.border_marked = "#CC9393"
 -- }}}
 
