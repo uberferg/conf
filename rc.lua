@@ -45,7 +45,7 @@ beautiful.init("/usr/share/awesome/themes/redferg/theme.lua")
 beautiful.useless_gap = 5
 
 -- This is used later as the default terminal and editor to run.
-terminal = "gnome-terminal"
+terminal = "urxvt"
 editor = os.getenv("EDITOR") or "editor"
 editor_cmd = terminal .. " -e " .. editor
 

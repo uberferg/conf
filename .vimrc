@@ -138,7 +138,8 @@ endif
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
-set background=dark
+" Currently not needed because of urxvt color scheme
+"set background=dark
 
 
 " OTHER SHORTCUT MAPPINGS """""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -199,10 +200,10 @@ nnoremap <C-\> :vsp<CR>:bn<CR>
 " this first line deals with a bug in vim-latexsuite that
 " interferes with remapping <C-j>
 nnoremap <SID>I_won’t_ever_type_this <Plug>IMAP_JumpForward
-nnoremap <C-k> <C-w><up>
-nnoremap <C-j> <C-w><down>
-nnoremap <C-h> <C-w><left>
-nnoremap <C-l> <C-w><right>
+nnoremap <C-k> <C-w>k
+nnoremap <C-j> <C-w>j
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
 
 " shortcuts for next/previous buffer
 nnoremap <C-n> :bn<CR>
