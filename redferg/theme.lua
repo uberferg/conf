@@ -12,7 +12,7 @@ theme.wallpaper = "/usr/share/awesome/themes/redferg/city_red_umbrella_painting.
 -- }}}
 
 -- {{{ Styles
-theme.font      = "Ubuntu Mono Bold 16"
+theme.font      = "Ubuntu Mono Bold 18"
 
 -- {{{ Colors
 theme.fg_normal  = "#FFDDDD"
