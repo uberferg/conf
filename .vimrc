@@ -221,7 +221,7 @@ nmap <silent> <leader>x <C-w>=
 
 
 " MOVEMENT SHORTCUTS """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" quick window switching
+" quick cursor movement
 inoremap <C-k> <up>
 inoremap <C-j> <down>
 inoremap <C-h> <left>
