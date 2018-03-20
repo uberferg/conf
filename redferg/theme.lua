@@ -18,16 +18,16 @@ theme.font      = "Ubuntu Mono Bold 18"
 theme.fg_normal  = "#FFDDDD"
 theme.fg_focus   = "#DDCCCC"
 theme.fg_urgent  = "#CC9393"
-theme.bg_normal  = "#646060"
-theme.bg_focus   = "#110000"
+theme.bg_normal  = "#110000"
+theme.bg_focus   = "#646060"
 theme.bg_urgent  = "#CC0000"
 theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
 theme.border_width  = 10
-theme.border_normal = "#646060"
-theme.border_focus  = "#110000"
+theme.border_normal = "#110000"
+theme.border_focus  = "#646060"
 theme.border_marked = "#CC9393"
 -- }}}
 
