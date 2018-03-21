@@ -276,11 +276,14 @@ globalkeys = awful.util.table.join(
                   awful.util.getdir("cache") .. "/history_eval")
               end),
     -- Menubar
-    awful.key({ modkey }, "p", function() menubar.show() end)
+    awful.key({ modkey }, "p", function() menubar.show() end),
 
     -- Media Keys
-    --awful.key({ }, "XF86AudioRaiseVolume",    function () awful.util.spawn("amixer set Master 1%+") end),
-    --awful.key({ }, "XF86AudioLowerVolume",    function () awful.util.spawn("amixer set Master 1%-") end)
+    -- TODO give these commands a visual effect (volume/media bar?)
+    awful.key({ }, "XF86AudioRaiseVolume",    function () awful.util.spawn("amixer set Master 1dB+") end),
+    awful.key({ }, "XF86AudioLowerVolume",    function () awful.util.spawn("amixer set Master 1dB-") end),
+    awful.key({ }, "XF86AudioMute",           function () awful.util.spawn("amixer -D pulse set Master toggle") end)
+    -- TODO add support for next/prev, play/pause
 )
 
 clientkeys = awful.util.table.join(
