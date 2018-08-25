@@ -40,7 +40,7 @@
 *.color15:      #dddddd
 
 
-URxvt.font: xft:Ubuntu Mono:size=16
+URxvt.font: xft:Ubuntu Mono:size=12
 !URxvt.letterSpace: -1
 
 
