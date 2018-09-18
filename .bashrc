@@ -10,6 +10,9 @@ case $- in
       *) return;;
 esac
 
+###################
+# Terminal History
+###################
 # don't put duplicate lines or lines starting with space in the history.
 HISTCONTROL=ignoreboth
 
@@ -20,17 +23,10 @@ shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
 
-# check the window size after each command and, if necessary,
-# update the values of LINES and COLUMNS.
-shopt -s checkwinsize
 
-# If set, the pattern "**" used in a pathname expansion context will
-# match all files and zero or more directories and subdirectories.
-#shopt -s globstar
-
-# make less more friendly for non-text input files, see lesspipe(1)
-[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
-
+###############
+# Vimification
+###############
 # set vim as default editor
 export VISUAL=vim
 export EDITOR=$VISUAL
@@ -38,8 +34,24 @@ export EDITOR=$VISUAL
 # set terminal to vi mode
 set -o vi
 
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+
+# If set, the pattern "**" used in a pathname expansion context will
+# match all files and zero or more directories and subdirectories.
+shopt -s globstar
+
+
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+
 # enable core files
 ulimit -c unlimited
+
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -52,22 +64,46 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
 # disable Ctrl-S/Ctrl-Q terminal stop/start
 #stty stop ''
 #stty start ''
 #stty -ixon
 #stty -ixoff
 
-# make cuda accessible when building on this machine
-export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
-export PATH=/usr/local/cuda-8.0/bin:$PATH
 
+###############################
+# Color Suport / Custom Prompt
+###############################
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
 
-####################
-#                  #
-# CUSTOMIZE PROMPT #
-#                  #
-####################
+    # -n adds line numbers to grep output
+    alias grep='grep -n --color=auto'
+    alias fgrep='fgrep -n --color=auto'
+    alias egrep='egrep -n --color=auto'
+fi
+
+# colored GCC warnings and errors
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+# uncomment the next line to enable a colored prompt, if the terminal has the capability
+force_color_prompt=yes
+if [ -n "$force_color_prompt" ]; then
+    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+	# We have color support; assume it's compliant with Ecma-48
+	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+	# a case would tend to support setf rather than setaf.)
+	color_prompt=yes
+    else
+	color_prompt=
+    fi
+fi
+
 # set variable identifying the chroot you work in
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
@@ -120,71 +156,17 @@ function parse_git_dirty {
 	fi
 }
 
-# set a fancy prompt (non-color, unless we know we "want" color)
-case "$TERM" in
-    xterm-color|*-256color) color_prompt=yes;;
-esac
-
-# uncomment for a colored prompt, if the terminal has the capability; turned
-# off by default to not distract the user: the focus in a terminal window
-# should be on the output of commands, not on the prompt
-force_color_prompt=yes
-
-if [ -n "$force_color_prompt" ]; then
-    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
-	color_prompt=yes
-    else
-	color_prompt=
-    fi
-fi
-
 # set the prompt
 if [ "$color_prompt" = yes ]; then
-    export PS1="\[\e[36m\][\[\e[m\]\[\e[36m\]\t\[\e[m\]\[\e[36m\]]\[\e[m\]\[\e[1;31m\]\u\[\e[m\]\[\e[1;31m\]@\[\e[m\]\[\e[1;31m\]\h\[\e[m\]:\w\[\e[32m\]\`parse_git_branch\`\[\e[m\]\\$ "
+    export PS1="\[\e[37m\][\[\e[m\]\[\e[37m\]\t\[\e[m\]\[\e[37m\]]\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[31m\]\h\[\e[m\]:\[\e[34m\]\w\[\e[m\]\[\e[33m\]\`parse_git_branch\`\[\e[m\]\\$ "
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 unset color_prompt force_color_prompt
 
-# If this is an xterm set the title to user@host:dir
-case "$TERM" in
-xterm*|rxvt*)
-    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
-    ;;
-*)
-    ;;
-esac
-
-
-#####################################
-#                                   #
-# COLOR SUPPORT FOR COMMON COMMANDS #
-#                                   #
-#####################################
-# enable color support of ls and also add handy aliases
-if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
-    alias dir='dir --color=auto'
-    alias vdir='vdir --color=auto'
-
-    # -n adds line numbers to grep output
-    alias grep='grep -n --color=auto'
-    alias fgrep='fgrep -n --color=auto'
-    alias egrep='egrep -n --color=auto'
-fi
-
-# colored GCC warnings and errors
-export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-
 
 #####################
-#                   #
-# ALIAS DEFINITIONS #
-#                   #
+# Alias Definitions #
 #####################
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
