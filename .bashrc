@@ -158,7 +158,8 @@ function parse_git_dirty {
 
 # set the prompt
 if [ "$color_prompt" = yes ]; then
-    export PS1="\[\e[37m\][\[\e[m\]\[\e[37m\]\t\[\e[m\]\[\e[37m\]]\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[31m\]\h\[\e[m\]:\[\e[34m\]\w\[\e[m\]\[\e[33m\]\`parse_git_branch\`\[\e[m\]\\$ "
+    #export PS1="\[\e[37m\][\[\e[m\]\[\e[37m\]\t\[\e[m\]\[\e[37m\]]\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[31m\]\h\[\e[m\]:\[\e[34m\]\w\[\e[m\]\[\e[33m\]\`parse_git_branch\`\[\e[m\]\\$ "
+    export PS1="\[\e[36m\][\[\e[m\]\[\e[36m\]\t\[\e[m\]\[\e[36m\]]\[\e[m\]\[\e[1;31m\]\u\[\e[m\]\[\e[1;31m\]@\[\e[m\]\[\e[1;31m\]\h\[\e[m\]:\w\[\e[32m\]\`parse_git_branch\`\[\e[m\]\\$ "
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
