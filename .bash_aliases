@@ -19,8 +19,8 @@ export PATH=/usr/local/cuda-8.0/bin:$PATH
 # By adding it AFTER the existing PATH, we find the system-level 
 # python/python3 executable first from bash, so we can add an
 # alias to easily access the Anaconda python shell
-export PATH=$PATH:/home/aferg/anaconda3/bin
-alias anathonda='/home/aferg/anaconda3/bin/python'
+# export PATH=$PATH:/home/aferg/anaconda3/bin
+# alias anathonda='/home/aferg/anaconda3/bin/python'
 
 
 
