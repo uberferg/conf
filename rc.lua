@@ -276,11 +276,14 @@ globalkeys = awful.util.table.join(
                   awful.util.getdir("cache") .. "/history_eval")
               end),
     -- Menubar
-    awful.key({ modkey }, "p", function() menubar.show() end)
+    awful.key({ modkey }, "p", function() menubar.show() end),
 
     -- Media Keys
-    --awful.key({ }, "XF86AudioRaiseVolume",    function () awful.util.spawn("amixer set Master 1%+") end),
-    --awful.key({ }, "XF86AudioLowerVolume",    function () awful.util.spawn("amixer set Master 1%-") end)
+    awful.key({ }, "XF86AudioRaiseVolume",    function () awful.util.spawn("amixer set Master 1%+") end),
+    awful.key({ }, "XF86AudioLowerVolume",    function () awful.util.spawn("amixer set Master 1%-") end),
+
+    -- Screenshot
+    awful.key({ }, "Print", function () awful.util.spawn_with_shell("cd ~/Pictures && sleep 0.5 && scrot -s") end)
 )
 
 clientkeys = awful.util.table.join(
