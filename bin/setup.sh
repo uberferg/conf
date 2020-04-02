@@ -35,7 +35,7 @@ git clone https://github.com/tmux-plugins/tmux-resurrect ~/packages/tmux-resurre
 # install urxvt and link Xresources file (color scheme for urxvt)
 sudo apt update
 sudo apt install rxvt-unicode
-ln -f ~/.Xresources ~/.Xresources
+ln -f ~/conf/.Xresources ~/.Xresources
 
 # install awesome and a compositing manager
 sudo apt install xcompmgr awesome
@@ -43,8 +43,9 @@ ln -f ~/conf/.xprofile ~/.xprofile
 
 # copy awesome config files
 sudo cp -r ~/conf/redferg /usr/share/awesome/themes
-sudo ln -f ~/conf/rc.lua ~/.config/awesome/rc.lua
+mkdir -p ~/.config/awesome
+ln -f ~/conf/rc.lua ~/.config/awesome/rc.lua
 
 
-# restart Xorg server
-sudo pkill X
+# restart computer
+sudo reboot

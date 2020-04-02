@@ -51,7 +51,7 @@ set title           " change the terminal's title
 "set mouse=a         " enable the mouse
 set visualbell      " don't beep
 set noerrorbells    " don't beep
-set clipboard=unnamedplus "use the system clipboard
+set clipboard=unnamed " use the system clipboard
 "set nostartofline   " don't jump to first character when paging
 set scrolloff=10    " keep at least 5 lines of context around the cursor
 set enc=utf-8
@@ -262,6 +262,11 @@ vnoremap <down> <nop>
 vnoremap <left> <nop>
 vnoremap <right> <nop>
 
+" FILE TYPE OPTIONS """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+augroup vue_ft
+    au!
+    autocmd BufNewFile,BufRead *.vue   set syntax=html
+augroup END
 
 " INCLUDES FOR OTHER CONF FILES """""""""""""""""""""""""""""""""""""""""""""""
 source ~/.vim/aqt.vim
