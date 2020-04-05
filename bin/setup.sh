@@ -27,6 +27,10 @@ rm ~/Downloads/google-chrome-stable_current_amd64.deb
 sudo snap install spotify
 
 
+# Install Slack
+sudo snap install slack
+
+
 ##############################
 # Development environment
 ##############################
