@@ -2,6 +2,35 @@
 
 #TODO add "Are you sure" check before deting files
 
+# Update package lists
+sudo apt update
+
+# Install general utilities
+sudo apt install --assume-yes vim tmux curl htop bmon firefox
+
+
+# Install Google Chrome
+## 1. Download the Chrome Debian package
+curl https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > ~/Downloads/google-chrome-stable_current_amd64.deb 
+
+## 2. Install the package
+sudo dpkg -i ~/Downloads/google-chrome-stable_current_amd64.deb
+
+## 3. Fix broken dependencies
+sudo apt install --assume-yes -f
+
+## 4. Delete deb package
+rm ~/Downloads/google-chrome-stable_current_amd64.deb
+
+
+# Install Spotify
+sudo snap install spotify
+
+
+##############################
+# Development environment
+##############################
+
 # link bashrc and bash_aliases
 ln -f ~/conf/.bashrc ~/.bashrc
 ln -f ~/conf/.bash_aliases ~/.bash_aliases
